@@ -1,0 +1,199 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+     font-family: var(--primary-font);
+}
+:root{
+    --primary-font:'Ubuntu', sans-serif;
+    --secondary-font:'Open Sans', sans-serif;
+    --third-font:'Abril Fatface', cursive;
+    --primary-color: #0f2f44;
+    --secondary-color:#ffc712;
+}
+/* common css end */
+
+/* header section css start */
+header{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+}
+header div.row{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* header section css end */
+
+/* navigation section css start */
+#navigation{
+    background-color: ;
+}
+#navigation div.row{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#navigation ul li a{
+    font-size: 16px;
+    font-weight:500 ;
+    color: #222222;
+    padding: 40px 12px;
+    display: inline-block;
+    transition: .7s;
+}
+#navigation ul li:hover a{
+    background-color: #fff9e6;
+    color: var(--secondary-color);
+}
+#navigation .row ul li span{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 30px 0;
+    color: #888;
+    cursor: pointer;
+    
+}
+
+/* navigation section css end */
+
+/* success section css start */
+#success{
+height: 600px;
+background-image: url(../img/cover.jpg);
+background-position: center;
+background-size: cover;
+
+}
+#success h4{
+    font-size: 50px;
+    color: var(--primary-color);
+    font-weight: 300;
+    font-family: var(--primary-font);
+    text-transform: capitalize;
+
+}
+#success h1{
+    font-size:80px ;
+    font-family: var(--third-font);
+    font-weight:400 ;
+    text-transform:uppercase ;
+    color: var(--primary-color);
+    margin-top: -15px;
+}
+#success h3{
+    font-size:32px ;
+    font-family: var(--primary-font);
+    font-weight:400 ;
+    text-transform:capitalize ;
+    color:#8484bf ;
+    margin-top: -15px;
+    letter-spacing: 18px;
+}
+#success p{
+    color: #444444;
+    width: 466px;
+    font-size: 14px;
+    margin: 30px 0;
+}
+#success a{
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #8484bf;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    display: inline-block;
+
+}
+#success span{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #888;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    margin: 0 20px;
+}
+/* success section css end */
+
+/* about section css start */
+#about{
+    padding: 100px 0 50px;
+}
+#about .about_info{
+    width: 50%;
+    color: var(--primary-color);
+}
+#about .about_info h6{
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    
+}
+#about .about_info h4{
+    font-size: 32px;
+    font-family: var(--third-font);
+    margin-bottom: 30px;
+}
+#about .about_info p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+#about .about_info ul{
+    margin-left: 28px;
+}
+#about .about_info ul li{
+    padding: 16px 0;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+}
+#about .about_info a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 19px;
+    color: var(--primary-color);
+    background-color:var(--secondary-color);
+    border-radius: 12px;
+    margin-right: 18px;
+    text-transform: capitalize;
+}
+#about .about_info a:last-child{
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+}
+/* about section css end */
